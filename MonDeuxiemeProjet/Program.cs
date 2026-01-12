@@ -8,7 +8,6 @@
             et afficher la somme des 2 nombres*/
             int num1 = 0, num2 = 0, resultat = 0;
             Console.WriteLine("saisir le num1");
-            //comment
             num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("saisir le num2");
             num2 = int.Parse(Console.ReadLine());
