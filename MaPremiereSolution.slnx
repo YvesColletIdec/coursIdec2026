@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Boucle/Boucle.csproj" Id="bd6e0dcf-791a-4038-a377-a7ea31348759" />
+  <Project Path="Conditions/Conditions.csproj" Id="a8b2a6dd-ff24-4e04-ae47-24775549792b" />
   <Project Path="MonDeuxiemeProjet/MonDeuxiemeProjet.csproj" />
   <Project Path="MonPremierProjet/MonPremierProjet.csproj" />
 </Solution>
