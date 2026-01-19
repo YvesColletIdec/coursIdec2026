@@ -4,14 +4,14 @@
     {
         static void Main(string[] args)
         {
-            //int numero = 2;
+            ////int numero = 2;
             ////tant que
-            //while (numero == 2)
-            //{
-            //    Console.WriteLine(DateTime.Now);
-            //    //if (DateTime.Now.ToString("HH:mm:ss") == "20:26:03")
-            //    break;
-            //}
+            ////while (numero == 2)
+            ////{
+            ////    Console.WriteLine(DateTime.Now);
+            ////    if (DateTime.Now.ToString("HH:mm:ss") == "20:26:03")
+            ////        break;
+            ////}
 
             //int numero = 0;
             //while (numero <= 0)
@@ -47,20 +47,71 @@
             //    Console.WriteLine(i);
             //}
 
-            int numero = 3;
-            string[] x = { "a", "b" };
-            foreach (string f in x)
+            //int xyz = 2;
+            //Console.WriteLine(xyz++);
+            //Console.WriteLine(++xyz);
+
+            //int numero = 3;
+
+            //if (numero < 0 && numero < 5)
+            //{
+            //    Console.WriteLine(">0 et <5");
+            //}
+            //else if (numero % 2 == 1)
+            //{
+            //    Console.WriteLine("faux");
+            //}
+            //else if (xyz % 2 == 2)
+            //{
+            //    {
+
+            //    }
+
+
+            //}
+
+            //continue
+
+            //int i = 1;
+            //while (i < 10)
+            //{
+            //    Console.WriteLine(i++);
+            //    if (i % 2 == 1)
+            //        continue;
+            //    if (i == 5)
+            //        break;
+            //}
+            int z = 10;
+            string[] tab = { "a", "b", "c", "d" };
+            for (int j = 0; j < tab.Length; j++)
             {
-                Console.WriteLine(f);
+                Console.WriteLine(tab[j]);
             }
 
-            if (numero > 0 || numero < 5)
+            //foreach
+            int f = 0;
+            foreach(string s in tab)
             {
-                Console.WriteLine(">0 et <5");
-            } else
-            {
-                Console.WriteLine("faux");
+                
+                if (s == "c")
+                {
+                    Console.WriteLine($"'c' se trouve en position {f}");
+                    break;
+                }
+                f++;
             }
+
+            if (z % 2 == 1 & z < (z/2+1) | z > 3)
+                Console.WriteLine();
+
+#if DEBUG
+            Console.WriteLine("debug");
+#else
+            Console.WriteLine("Release");
+#endif
+
+            Console.WriteLine("adsfas");
+            
         }
     }
 }
