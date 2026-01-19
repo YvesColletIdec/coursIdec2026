@@ -48,6 +48,12 @@
             //}
 
             int numero = 3;
+            string[] x = { "a", "b" };
+            foreach (string f in x)
+            {
+                Console.WriteLine(f);
+            }
+
             if (numero > 0 || numero < 5)
             {
                 Console.WriteLine(">0 et <5");
