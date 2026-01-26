@@ -1,6 +1,6 @@
-﻿namespace Methodes
+﻿namespace Salle3
 {
-    internal class Program
+    public class ProgramMethodes
     {
         static void Main(string[] args)
         {
@@ -26,7 +26,7 @@
         }
 
         //fait la somme de 2 nombres et renvoie le résultat
-        static int Somme(int nb1, int nb2)
+        public static int Somme(int nb1, int nb2)
         {
             int resultat = nb1 + nb2;
             return resultat;

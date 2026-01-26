@@ -1,7 +1,11 @@
 <Solution>
+  <Project Path="Autre/Autre.csproj" Id="16b50666-17c4-4f2a-a9c7-eefce21f64cb" />
   <Project Path="Boucle/Boucle.csproj" Id="bd6e0dcf-791a-4038-a377-a7ea31348759" />
   <Project Path="Conditions/Conditions.csproj" Id="a8b2a6dd-ff24-4e04-ae47-24775549792b" />
+  <Project Path="Fichier/Fichier.csproj" Id="1daca895-4027-4999-ac13-3447c11f6c19" />
+  <Project Path="Liste/Liste.csproj" Id="48913329-7618-4ce7-90ac-2aec625f7a58" />
   <Project Path="Methodes/Methodes.csproj" Id="76c1ff1e-073b-4a9a-bd57-a0f83b1f558d" />
   <Project Path="MonDeuxiemeProjet/MonDeuxiemeProjet.csproj" />
   <Project Path="MonPremierProjet/MonPremierProjet.csproj" />
+  <Project Path="TryCatch/TryCatch.csproj" Id="0fde2dec-bedb-45d2-b8ce-9fec4c8f59e3" />
 </Solution>
