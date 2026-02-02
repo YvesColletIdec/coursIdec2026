@@ -1,4 +1,6 @@
-﻿namespace TryCatch
+﻿using MesClasses;
+
+namespace TryCatch
 {
     public class Program
     {
@@ -12,6 +14,7 @@
             {
                 int nb = int.Parse("hello world");
                 resultat = Division(n1, n2);
+                Personne p = new Personne();
                 //asdfsadf
             }
             catch (DivideByZeroException ex)

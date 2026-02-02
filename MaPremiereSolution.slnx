@@ -7,5 +7,6 @@
   <Project Path="Methodes/Methodes.csproj" Id="76c1ff1e-073b-4a9a-bd57-a0f83b1f558d" />
   <Project Path="MonDeuxiemeProjet/MonDeuxiemeProjet.csproj" />
   <Project Path="MonPremierProjet/MonPremierProjet.csproj" />
+  <Project Path="POO/POO.csproj" Id="eb9e29dd-8934-4479-ae99-d4eb1d11923d" />
   <Project Path="TryCatch/TryCatch.csproj" Id="0fde2dec-bedb-45d2-b8ce-9fec4c8f59e3" />
 </Solution>

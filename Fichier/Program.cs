@@ -8,6 +8,7 @@
             string fichier = @"C:/Users/yvesc/testdotnet/fichier.txt";
             File.AppendAllLines( fichier, tab);
             string[] tab2 = File.ReadAllLines(fichier);
+            
             foreach (string s in tab2)
             {
                 Console.WriteLine(s);
