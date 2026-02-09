@@ -1,4 +1,7 @@
-﻿using MesClasses;
+﻿using CoursRepetition;
+using MesClasses;
+using System.Numerics;
+using System.Security.Cryptography;
 
 namespace POO
 {
@@ -10,7 +13,32 @@ namespace POO
             //Objet();
             //TestPersonne();
             //TestVoiture();
-            TestCours();
+            //TestCours();
+            TestCD();
+        }
+
+        private static void TestCD()
+        {
+            CD c = new CD();
+            c = new CD("KoRn");
+            Console.WriteLine(c.GetInfos());
+            c.SetGroupe("Kiss");
+            Console.WriteLine(c.GetGroupe());
+            c.Annee = 2000;
+            Console.WriteLine(c.Annee);
+            c.Genre = "Progressive Vegetarian Grindcore";
+            Console.WriteLine(c.Genre);
+            Console.WriteLine(c.GetType);
+            Console.WriteLine(c.GetInfos());
+            CD c2 = new CD();
+            c2.Annee = c.Annee;
+            c2 = c;
+            c.Genre = "jazz";
+            List<CD> maliste = new List<CD>();
+            maliste.Add(c2);
+            maliste.Add(c);
+            c2 = null;
+            Console.WriteLine(maliste[0].Genre);
         }
 
         private static void TestCours()
