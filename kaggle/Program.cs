@@ -9,7 +9,7 @@
 
         public static void Go()
         {
-            string chemin = @"C:\Users\yvesc\OneDrive\Bureau\IDEC_2025_2026\CSHARP\USA_cars_datasets.csv";
+            string chemin = @"C:\adi\USA_cars_dataset.csv";
             try
             {
                 List<string> fichier = File.ReadAllLines(chemin).ToList<string>();
@@ -44,7 +44,7 @@
                 Console.WriteLine($"le prix max est : {(int)cars.Average(x => x.Year)}");
             } catch (Exception ex)
             {
-                Console.WriteLine("zut");
+                Console.WriteLine($"zut : {ex}");
             }
             
         }
